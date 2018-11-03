@@ -1,0 +1,65 @@
+#container {
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	text-align: center;
+}
+#work {
+	width: 700px;
+	height: 30px;
+	position: relative;
+	left: 150px;
+}
+#todo {
+	width: 700px;
+	position: relative;
+	left: 150px;
+}
+#button {
+	position: relative;
+	left: 150px;
+}
+#todo > p {
+	display: inline;
+	width:  50px;
+}
+
+#todo > p {
+	width: 71px;
+	padding: 0;
+	margin: 0;
+	display:  inline-block;
+}
+
+#todo ul li {
+	overflow:  auto;
+}
+
+#todo a {
+	float: right;
+}
+
+#todo li p {
+	width: 85%;
+	display:  inline-block;
+	margin-left:  16px;
+	margin-top:  4px;
+	border-bottom: 1px solid #e6e6e6;
+	padding-top: 15px;
+	padding-bottom: 22px;
+}
+
+ul#todo {
+    list-style:  none;
+    padding-left: 21px;
+}
+.choose {
+	color: red;
+}
+.hide {
+	display: none;
+}
+
+
