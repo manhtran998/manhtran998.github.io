@@ -1,91 +1,66 @@
----
-layout: cv
-title: Isaac Newtons's CV
----
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+markdown-cv
+===========
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+A curriculum vitae maintained in plain text and rendered to html and pdf using CSS.
 
+For more details see the [project page](http://elipapa.github.io/markdown-cv) or the blog post on [why I switched to markdown for my CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
 
-## Currently
+***
 
-Standing on the shoulders of giants
+## Usage
 
-### Specialized in
+To start, simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
+and then [edit directly in github](https://help.github.com/articles/editing-files-in-your-repository/) the `index.md` file
 
-### Research interests
+![](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+adding your skills, jobs and education.
 
+![](https://help.github.com/assets/images/help/repository/edit-readme-light.png)
 
-## Education
+To transform your plain text CV into a beautiful looking HTML page and share it you then have two options:
 
-`1654-1660`
-__The King's School, Grantham.__
+## 1) Using Github Pages to publish it online
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+1. Delete the existing `gh-pages` branch from your fork. It will only contain this webpage. You can either use git or [the github web interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/#deleting-a-branch)
+2. Create a new branch called `gh-pages` (which will then be a copy of master)
+3. Head to *yourusername*.github.io/markdown-cv to see your CV live.
 
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+Any change you want to make to your CV from then on would have to be done on the `gh-pages` branch and will be immediately rendered by Github Pages.
 
 
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
+## 2) Build it locally and print a PDF
+1. [install jekyll](https://jekyllrb.com/docs/installation/) on your computer. `gem install jekyll` will do for most users.
+2. Clone your fork on your computer
+3. Type `jekyll serve` and you'll be able to see your CV on your local host (the default address is http://localhost:4000).
+4. You can edit the `index.md` file and see changes live in your browser.
+5. To print a PDF, just press *Print*. Print and web CSS media queries should take care of the styling.
 
 
-## Publications
+### Change the style
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+The included CSS renders CV in different styles:
 
-### Journals
+- `kjhealy` the original default, inspired by [kjhealy's vita
+template](https://github.com/kjhealy/kjh-vita)
+- `davewhipp` is a tweaked version of `kjhealy`, with bigger fonts and dates
+  right aligned
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+To change the default style, one needs to simply change the variable in the
+`_config.yml` file.
 
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+Any other styling is possible. More CSS style contributions and forks are welcome!
 
 
-## Occupation
+### Author
 
-`1600`
-__Royal Mint__, London
+Eliseo Papa ([Twitter](http://twitter.com/elipapa)/[GitHub](http://github.com/elipapa)/[website](https://elipapa.github.io)).
 
-- Warden
-- Minted coins
+![Eliseo Papa](https://s.gravatar.com/avatar/eae1f0c01afda2bed9ce9cb88f6873f6?s=100)
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+### License
 
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
-
-
+[MIT License](https://github.com/elipapa/markdown-cv/blob/master/LICENSE)
