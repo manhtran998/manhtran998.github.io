@@ -21,17 +21,17 @@ Mail: Manhtran998@gmail.com
 
 ## Education
 
-`2004-2009`
+`2004-2009`\
 __Thach Ha Primary School__
 
-`2009-2013`
- __Thach Ha Secondary School__
+`2009-2013`\
+__Thach Ha Secondary School__
 
-`2013-2016`
- __Ha Tinh High School for Gifted Student__
+`2013-2016`\
+__Ha Tinh High School for Gifted Student__
 
-`2016-now`
- __Ha Noi University of Science and Technology__
+`2016-now`\
+__Ha Noi University of Science and Technology__
 
 ## Work
 
